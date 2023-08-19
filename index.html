@@ -819,7 +819,7 @@
               <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div> -->
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
           <form name="contact" method="POST" data-netlify="true">
             <div class="row">
             <h4>Formulario</h4>
@@ -843,7 +843,33 @@
             <div class="text-center"> <button type="submit">Enviar</button> </div>
             </p>
           </form>
-      </div>
+      </div> -->
+
+      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="row">
+          <h4>Formulario</h4>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="name" placeholder="" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" name="email" placeholder="" required maxlength="40">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Asunto</label>
+            <input type="text" class="form-control" name="subject" placeholder="" maxlength="80" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" name="message" rows="7" required></textarea>
+          </div>
+          <p>
+          <div class="text-center"> <button type="submit">Enviar</button> </div>
+          </p>
+        </form>
+    </div>
     </div>
       
     </section><!-- End Contact Section -->
